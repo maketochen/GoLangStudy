@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	//ChanDemo()
-	bufferedChannel()
+	ChanDemo()
+	//bufferedChannel()
 }
 
 func createWork(id int) chan<- int {
